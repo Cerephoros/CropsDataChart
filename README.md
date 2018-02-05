@@ -5,4 +5,4 @@ The project unfortunately will not work unless you download MySQL Server 5.7 on 
 https://dev.mysql.com/downloads/mysql/
 
 Furthermore, once MySQL has been installed, please enter the following: CREATE USER 'cropsdata'@'localhost' IDENTIFIED BY 'password';
-and finally GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, REFERENCES, EXECUTE, ALTER ON *.* to 'cropsdata'@'localhost';
+and finally GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, REFERENCES, EXECUTE, ALTER ON **.** to 'cropsdata'@'localhost';
